@@ -1,24 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
-
+import UseEffect from './components/UseEffect/UseEffect.jsx';
+import UseLayoutEffects from './components/UseLayoutEffect/UseLayoutEffects.jsx';
+import UseReducer from './components/UseReducer/UseReducer.jsx';
+import UseRef from './components/UseReference/UseRef.jsx';
+import UseStatee from "./components/UseState/UseStatee.jsx";
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <>
+  {/* <UseStatee/>  */}
+  {/* <UseReducer/> */}
+  {/* <UseEffect/> */}
+  <UseRef/>
+  {/* <UseLayoutEffects/> */}
+  </>
   );
 }
 
